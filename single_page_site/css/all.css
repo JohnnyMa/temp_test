@@ -1,0 +1,265 @@
+/******************************************************************************/
+/* @font-face */
+/******************************************************************************/
+
+@font-face {
+	font-family: 'HelvRoman';
+	src: url('../fonts/helveticaltstdroman-webfont.eot');
+	src: local('☺'), url('../fonts/helveticaltstdroman-webfont.woff') format('woff'), url('../fonts/helveticaltstdroman-webfont.ttf') format('truetype'), url('../fonts/helveticaltstdroman-webfont.svg#webfontlWwFGuwu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelvBold';
+	src: url('../fonts/helveticaltstdbold-webfont.eot');
+	src: local('☺'), url('../fonts/helveticaltstdbold-webfont.woff') format('woff'), url('../fonts/helveticaltstdbold-webfont.ttf') format('truetype'), url('../fonts/helveticaltstdbold-webfont.svg#webfontpqMqltzn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/******************************************************************************/
+/* General statements */
+/******************************************************************************/
+
+body {
+  text-align: center;
+  background: #151515;
+}
+.clear { clear: both; }
+#wrapper {
+  margin: 0 auto;
+  width: 967px;
+  text-align: left;  
+}
+
+
+
+/******************************************************************************/
+/* Header */
+/******************************************************************************/
+
+#header {
+  float: left;
+  width: 100%;
+  height: 50px;
+  padding: 42px 0 0;
+}
+#header p#collab {
+  float: left;
+  height: 23px;
+  font: 12px/23px "HelvRoman", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #444;
+}
+#header_actions { float: right; }
+#header_actions a {
+  float: left;
+  height: 23px;
+  font: 12px/23px "HelvBold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #444;
+  text-decoration: none;
+}
+#header_actions a#email { margin-right: 11px; }
+#header_actions a#email:hover { color: #f7914a; }
+#header_actions a#reel {
+  background: #3d3d3d;
+  color: #151515;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0 5px; 
+}
+#header_actions a#reel:hover { background: #f7914a; }
+
+
+
+/******************************************************************************/
+/* Logo */
+/******************************************************************************/
+
+#logo {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin: 118px 0 0;
+  height: 354px;  
+}
+#logo h1, #logo h2 { text-indent: -9999px; }
+#logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+/******************************************************************************/
+/* Grid */
+/******************************************************************************/
+
+#board {
+  float: left;  
+  width: 967px;
+  overflow: hidden;  
+}
+
+#board ul {
+	width: 968px;
+	float: left;
+  margin-left: -1px; 
+}
+#board ul li {
+	float: left;
+	position: relative;
+  width: 241px;
+	height: 140px;
+  margin: 0 0 1px 1px;   
+}
+#board ul li .slide {
+  height: 140px;
+  overflow: hidden;  
+}
+#board ul li a {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 241px;
+  height: 140px;
+}
+
+
+
+
+/******************************************************************************/
+/* Item */
+/******************************************************************************/
+
+.works_cont {
+  float: left;
+  width: 100%;  
+}
+.showcase {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 281px;
+  overflow: hidden;
+  padding: 0 0 1px;
+}
+.showcase ul li { 
+  float: left;
+  width: 967px; 
+}
+.showcase ul li img { float: left; }
+.showcase ul li img.r { float: right; }
+
+.showcase span a {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  width: 483px;
+  height: 281px;
+  background: url(../images/project_buttons.png) no-repeat; 
+  cursor: pointer;
+  text-indent: -9999px;    
+}
+.showcase .prev a { left: 0; }
+.showcase .next a { right: 0; background-position: right top; }
+
+.work_info {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 140px;
+  padding: 0 0 1px;   
+}
+.work_info .content {
+  float: left;
+  width: 456px;
+  padding: 19px 0 0 27px;
+} 
+.work_info p.desc {
+  font: 10px/12px "HelvRoman", Helvetica, Arial, sans-serif;
+  color: #555;
+  text-transform: uppercase;
+  padding: 0 0 47px;
+}
+.work_info h2 {
+  font: 20px/30px "HelvRoman", Helvetica, Arial, sans-serif;
+  color: #444;    
+}
+.work_info h2 span { font: 20px/30px "HelvBold", Helvetica, Arial, sans-serif; }
+.work_info h2 span.color { color: #fff; }
+.work_info p.detail {
+  font: 11px/13px "HelvRoman", Helvetica, Arial, sans-serif;
+  color: #555;
+  text-transform: uppercase;  
+  margin: -4px 0 0;
+}
+.work_info a.play, .work_info a.view {
+  float: right;
+  width: 483px;
+  height: 140px;
+  text-indent: -9999px;      
+}
+.work_info a.play { background: url(../images/play.png) no-repeat; }
+.work_info a.view { background: url(../images/view.png) no-repeat; }
+.work_info a.play:hover, .work_info a.view:hover { background-position: 0 -140px; }
+.works_cont img.mini {
+  float: left;
+  display: block;
+}
+
+
+/* FOOTER *********************************************************************/
+/******************************************************************************/
+
+#footer {
+  float: left;
+  width: 100%;
+  height: 141px;
+  padding: 148px 0 0;
+}
+
+#footer p.expl {
+  font: 10px/16px "HelvBold", Helvetica, Arial, sans-serif;
+  color: #383838;
+  text-transform: uppercase;
+}
+#footer p.focus {
+  font: 10px/16px "HelvRoman", Helvetica, Arial, sans-serif;
+  color: #383838;
+  text-transform: uppercase;
+  padding: 0 0 17px;
+}
+#footer .footer_logo {
+  float: left;
+  height: 30px;
+  background: url(../images/footer_logo.png) no-repeat;
+  padding: 18px 0 0 148px; 
+}
+#footer .footer_logo p {
+  font: 12px/16px "HelvRoman", Helvetica, Arial, sans-serif;
+  color: #383838;
+}
+#footer #networks {
+  float: right;  
+} 
+#footer #networks li {
+  float: left;  
+}
+#footer #networks li a {
+  float: left;
+  height: 48px;
+  background: url(../images/footer_networks.png) no-repeat; 
+  text-indent: -9999px; 
+}
+#footer #networks li.be a { width: 107px; background-position: -42px -1px; }
+#footer #networks li.vm a { width: 83px; background-position: -149px -1px; }
+#footer #networks li.fb a { width: 98px; background-position: -232px -1px; }
+#footer #networks li.fl a { width: 68px; background-position: -330px -1px; }
+#footer #networks li.in a { width: 85px; background-position: -398px -1px; }
