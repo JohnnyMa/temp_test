@@ -1,0 +1,50 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'formidable' ]
+2 info using npm@1.1.63
+3 info using node@v0.8.12
+4 verbose read json c:\Johnny\github\temp_test\nodejs\package.json
+5 verbose read json c:\Johnny\github\temp_test\nodejs\package.json
+6 verbose cache add [ 'formidable', null ]
+7 silly cache add name=undefined spec="formidable" args=["formidable",null]
+8 verbose parsed url { pathname: 'formidable',
+8 verbose parsed url   path: 'formidable',
+8 verbose parsed url   href: 'formidable' }
+9 silly lockFile 8fdd0b7c-formidable formidable
+10 verbose lock formidable C:\Users\c5172611\AppData\Roaming\npm-cache\8fdd0b7c-formidable.lock
+11 silly lockFile 8fdd0b7c-formidable formidable
+12 verbose addNamed [ 'formidable', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile fedfde19-formidable formidable@
+15 verbose lock formidable@ C:\Users\c5172611\AppData\Roaming\npm-cache\fedfde19-formidable.lock
+16 silly addNameRange { name: 'formidable', range: '', hasData: false }
+17 verbose url raw formidable
+18 verbose url resolving [ 'https://registry.npmjs.org/', './formidable' ]
+19 verbose url resolved https://registry.npmjs.org/formidable
+20 info trying registry request attempt 1 at 14:33:36
+21 http GET https://registry.npmjs.org/formidable
+22 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT
+23 info trying registry request attempt 2 at 14:33:47
+24 http GET https://registry.npmjs.org/formidable
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT
+26 info trying registry request attempt 3 at 14:34:47
+27 http GET https://registry.npmjs.org/formidable
+28 silly lockFile fedfde19-formidable formidable@
+29 error Error: getaddrinfo ENOENT
+29 error     at errnoException (dns.js:31:11)
+29 error     at Object.onanswer [as oncomplete] (dns.js:123:16)
+30 error If you need help, you may report this log at:
+30 error     <http://github.com/isaacs/npm/issues>
+30 error or email it to:
+30 error     <npm-@googlegroups.com>
+31 error System Windows_NT 6.1.7601
+32 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "formidable"
+33 error cwd c:\Johnny\github\temp_test\nodejs
+34 error node -v v0.8.12
+35 error npm -v 1.1.63
+36 error syscall getaddrinfo
+37 error code ENOTFOUND
+38 error errno ENOTFOUND
+39 verbose exit [ 1, true ]
