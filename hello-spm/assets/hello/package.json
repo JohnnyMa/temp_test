@@ -1,0 +1,23 @@
+{
+    "name": "hello",
+    "version": "1.0.0",
+    "root": "",
+    "description": "",
+    "homepage": "",
+    "author": "johnny",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "license": "",
+    "dependencies": {
+        "$": "$",
+        "util": "hello-spm/util/1.0.0/util"
+    },
+    "parent": "../package.json",
+    "output": {
+    }
+}

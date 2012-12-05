@@ -1,0 +1,23 @@
+{
+    "name": "util",
+    "version": "1.0.0",
+    "root": "",
+    "description": "",
+    "homepage": "",
+    "author": "johnny",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "license": "",
+    "dependencies": {
+    },
+    "tests": ["util"],
+    "parent": "../package.json",
+    "output": {
+        "util.js": "."
+    }
+}

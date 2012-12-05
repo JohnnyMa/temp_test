@@ -1,0 +1,21 @@
+{
+    "name": "hello-spm",
+    "version": "1.0.0",
+    "root": "hello-spm",
+    "description": "",
+    "homepage": "",
+    "author": "johnny",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "license": "",
+    "dependencies": {
+    },
+    "parent": "",
+    "output": {
+    }
+}
